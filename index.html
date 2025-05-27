@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sklep z e-bookami: Odchudzanie</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    main {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+    }
+    .product h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .product p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+    .product button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 4px;
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .product button:hover {
+      background-color: #333;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      border-top: 1px solid #eee;
+    }
+    @media (max-width: 768px) {
+      header {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      main {
+        padding: 1rem;
+      }
+      .product {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>E-booki o Odchudzaniu</h1>
+    <p>Minimalistyczny sklep z wiedzą, która działa</p>
+  </header>
+  <main>
+    <div class="product">
+      <img src="/placeholder.svg?height=300&width=400" alt="E-book Odchudzanie krok po kroku" />
+      <h2>Odchudzanie krok po kroku</h2>
+      <p>Praktyczny poradnik jak skutecznie i trwale zredukować wagę.</p>
+      <button onclick="handlePurchase()">Kup teraz – 39 zł</button>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Sklep z E-bookami. Wszelkie prawa zastrzeżone.
+  </footer>
+
+  <script>
+    function handlePurchase() {
+      alert('Przekierowanie do płatności...');
+      // Here you would typically redirect to a payment processor
+    }
+  </script>
+</body>
+</html>
